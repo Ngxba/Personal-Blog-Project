@@ -1,0 +1,34 @@
+{
+  "name": "ngxba-blog",
+  "private": true,
+  "description": "Personal Tech-Life Blog",
+  "version": "1.0.0",
+  "author": "Tùng Lâm Nguyễn Bá",
+  "workspaces": [
+    "blog-main"
+  ],
+  "scripts": {
+    "clean": "lerna clean --yes && rimraf node_modules",
+    "clean:gatsby": "lerna run --parallel clean",
+    "dev:personal": "yarn workspace @blog/personal develop",
+    "build:personal": "yarn workspace @blog/personal build",
+    "serve:personal": "yarn workspace @blog/personal serve"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,css}": [
+      "prettier --trailing-comma es5 --single-quote --write"
+    ]
+  }
+}
