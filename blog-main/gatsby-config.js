@@ -79,7 +79,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,//`ADD YOUR TRACKING ID HERE`,
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
       },
     },
     {
@@ -109,12 +109,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: process.env.MAILCHIMP_ENDPOINT, // add your MC list endpoint here; see instructions below
+        endpoint: process.env.MAILCHIMP_ENDPOINT,
       },
     },
     {
       resolve: `gatsby-source-instagram`,
-      //add your instagram username, access_token and id below
       options: {
         username: process.env.INSTAGRAM_USER_NAME_ID,
         access_token: process.env.INSTAGRAM_ACCESS_TOKEN,
