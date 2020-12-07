@@ -15,7 +15,7 @@ const NotFoundPage = () => {
       <NotFound />
       <Footer>
         Copyright &copy; {new Date().getFullYear()}
-        <a href="https://facebook.com/"> Ngxba.</a>
+        <a href="https://facebook.com/ngxba"> Ngxba.</a>
       </Footer>
     </>
   );

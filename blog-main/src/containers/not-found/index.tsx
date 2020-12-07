@@ -34,9 +34,9 @@ const NotFound: React.FunctionComponent<NotFoundProps> = () => {
   return (
     <NotFoundWrapper>
       <NotFoundContent>
-        <h1>This Page Was Lost</h1>
+        <h1>You maybe lost</h1>
         <p>
-          The Page You are looking for isn’t available. Try to search again or
+          The Page you are looking for isn’t available. Try to search again or
           use the Go Back button below.
         </p>
         <Goback>

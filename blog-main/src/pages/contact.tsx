@@ -9,8 +9,8 @@ const ContactPage: React.FunctionComponent<ContactPageProps> = () => {
   return (
     <Layout>
       <SEO
-        title="Contact Us"
-        description="StoryHub is a beautiful Gatsby Blog theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website."
+        title="Contact me"
+        description="If you have any problem or would like to contact me please fill out the form below. Nguyễn Bá Tùng Lâm Blog, Ngxba Blog"
       />
 
       <Contact />

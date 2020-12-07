@@ -7,8 +7,8 @@ module.exports = {
     title: `Ngxba Blog`,
     author: `Tùng Lâm Nguyễn Bá`,
     about: `"Smart people learn from everything and everyone, average people from their experiences, stupid people already have all the answers."`,
-    description: `A Tech guy Blog`,
-    siteUrl: `https://storyhub-personal-tarex.redq.now.sh`,
+    description: `Ngxba Blog, Tech-Life Blog`,
+    siteUrl: `https://ngxba-blog.netlify.app`,
   },
   plugins: [
     {
